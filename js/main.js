@@ -218,10 +218,10 @@
 
 	/* local validation */
 	$('#contactForm').validate({
-
+        
 		/* submit via ajax */
 		submitHandler: function(form) {
-
+            console.log("line number 224");
 			var sLoader = $('#submit-loader');
 
 			$.ajax({      	
